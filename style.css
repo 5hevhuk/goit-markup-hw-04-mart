@@ -69,14 +69,15 @@ header {
 }
 
 
-.header_list-item:hover a {
+.header_list-item a:hover,
+.header_list-item a:focus {
     color: var(--green);
 }
 
 h2 {
     position: relative;
     font-family: var(--roboto);
-    margin-top: 105px;
+    padding-top: 105px;
     color: var(--grey);
     font-size: 48px;
     text-transform: uppercase;
@@ -96,7 +97,7 @@ h2::before {
 }
 
 .cards_wrapper-info {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .cards_wrapper {
@@ -122,7 +123,8 @@ h2::before {
    
 }
 
-.card_wrapper:hover .card_description-wrapper {
+.card_wrapper .card_description-wrapper:hover,
+.card_wrapper .card_description-wrapper:focus  {
     background-color: var(--green);
 }
 
