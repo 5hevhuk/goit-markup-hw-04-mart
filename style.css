@@ -95,11 +95,13 @@ h2::before {
     transform: translateX(-50%);
 }
 
+.cards_wrapper-info {
+    margin-top: 130px;
+}
+
 .cards_wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 130px;
-
 }
 
 .card_wrapper {
@@ -214,4 +216,7 @@ h2::before {
 }
 
 
-  
+.cards_wrapper-blog {
+    display: flex;
+    flex-wrap: wrap;
+}
